@@ -50,7 +50,7 @@ runs:
       shell: bash
       run: | 
         echo "CURRENT_TIME=$(date +%Y-%m-%d_%H-%M-%S)" >> $GITHUB_ENV
-        echo "REPO_NAME=x-ui#enkidu-6/}" >> $GITHUB_ENV
+        echo "REPO_NAME=x-ui#enkidu-6/" >> $GITHUB_ENV
 
 # Check if is_organization is true, if so change GH_API_PREFIX env accordingly.
     - name: Check if user or organization
